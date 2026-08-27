@@ -1,0 +1,1190 @@
+[
+	{
+		"id": "CE-01",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "Hey can you WhatsApp me on nine eight seven six five four three two one zero"
+			}
+		]
+	},
+	{
+		"id": "CE-02",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "call me at 9️⃣8️⃣7️⃣6️⃣5️⃣4️⃣3️⃣2️⃣1️⃣0️⃣ once you land"
+			}
+		]
+	},
+	{
+		"id": "CE-03",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "my number is n1ne-eight-s3ven-65-43-21-0"
+			}
+		]
+	},
+	{
+		"id": "CE-04",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "easier to coordinate keys if you msg me — 98 76 54 32 10"
+			}
+		]
+	},
+	{
+		"id": "CE-05",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "reach me a t alex [at] gmail [dot] com for the deposit"
+			}
+		]
+	},
+	{
+		"id": "CE-06",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "send your ID scan to priya dot host at gmail dawt com"
+			}
+		]
+	},
+	{
+		"id": "CE-07",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "email works better — r a h u l 1 9 9 2 @ y a h o o . c o m"
+			}
+		]
+	},
+	{
+		"id": "CE-08",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "just UPI it to villa.stays@okhdfcbank if that's easier"
+			}
+		]
+	},
+	{
+		"id": "CE-09",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "pay the balance to goastay2024@okicici, saves the platform fee"
+			}
+		]
+	},
+	{
+		"id": "CE-10",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "my telegram is @sunny_traveller99 if you'd rather chat there"
+			}
+		]
+	},
+	{
+		"id": "CE-11",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "insta: villa.by.the.sea, dm me your travel dates there instead"
+			}
+		]
+	},
+	{
+		"id": "CE-12",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "add me on whatsapp, t dot me slash rohan underscore k"
+			}
+		]
+	},
+	{
+		"id": "CE-13",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "find me on insta at v i l l a d o t g o a, easier to share photos there"
+			}
+		]
+	},
+	{
+		"id": "CE-14",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "here's my number — 9-8-7-6-5-4-3-2-1-0, call anytime"
+			}
+		]
+	},
+	{
+		"id": "CE-15",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "9876543210 is my direct line, skip the app for next time"
+			}
+		]
+	},
+	{
+		"id": "CE-16",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "whatsapp me — ninEightSevenSix five four three two one zero"
+			}
+		]
+	},
+	{
+		"id": "CE-17",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "site link: w w w dot goavillarentals dot com slash book"
+			}
+		]
+	},
+	{
+		"id": "CE-18",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "book direct next time, link: bit.ly/goa-villa-direct"
+			}
+		]
+	},
+	{
+		"id": "CE-19",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "sending you my no: ৯৮৭৬৫৪৩২১০"
+			}
+		]
+	},
+	{
+		"id": "CE-20",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "reachable at ٩٨٧٦٥٤٣٢١٠ after 6pm"
+			}
+		]
+	},
+	{
+		"id": "CE-21",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "you can reach me on discord, sunny#4821"
+			}
+		]
+	},
+	{
+		"id": "CE-22",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "my mail is s.narayan.stays@rediffmail.com, send the docs there"
+			}
+		]
+	},
+	{
+		"id": "CE-23",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "phone — 9 8 7 6 5 4 3 2 1 0 (yes it's real, just formatted weird lol)"
+			}
+		]
+	},
+	{
+		"id": "CE-24",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "vpa for advance: rakesh.villas@paytm"
+			}
+		]
+	},
+	{
+		"id": "CE-25",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "my number: nine-eight-seven-six-five, four-three-two-one-zero"
+			}
+		]
+	},
+	{
+		"id": "CE-26",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "quicker on telegram — t.me/villa_owner_goa"
+			}
+		]
+	},
+	{
+		"id": "CE-27",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "email me the invoice — j.dsouza1988@hotmail dot com"
+			}
+		]
+	},
+	{
+		"id": "CE-28",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "9876543210 — that's whatsapp, easier than typing here"
+			}
+		]
+	},
+	{
+		"id": "CE-29",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "here's my insta handle for the deposit screenshot: @traveler.k.29"
+			}
+		]
+	},
+	{
+		"id": "CE-30",
+		"category": "contact_evasion",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "text 9876543210, I don't check this app often"
+			}
+		]
+	},
+	{
+		"id": "MS-01",
+		"category": "multiturn_split",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "sure, let me give you my number"
+			},
+			{
+				"speaker": "guest",
+				"text": "nine eight seven"
+			},
+			{
+				"speaker": "guest",
+				"text": "six five four"
+			},
+			{
+				"speaker": "guest",
+				"text": "three two one zero"
+			}
+		]
+	},
+	{
+		"id": "MS-02",
+		"category": "multiturn_split",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "ok here's how you can reach me directly"
+			},
+			{
+				"speaker": "host",
+				"text": "98765"
+			},
+			{
+				"speaker": "host",
+				"text": "43210"
+			}
+		]
+	},
+	{
+		"id": "MS-03",
+		"category": "multiturn_split",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "my insta is"
+			},
+			{
+				"speaker": "guest",
+				"text": "way"
+			},
+			{
+				"speaker": "guest",
+				"text": "zyy"
+			},
+			{
+				"speaker": "guest",
+				"text": "official"
+			}
+		]
+	},
+	{
+		"id": "MS-04",
+		"category": "multiturn_split",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "nine"
+			},
+			{
+				"speaker": "guest",
+				"text": "the pool looks great by the way"
+			},
+			{
+				"speaker": "guest",
+				"text": "eight seven six"
+			},
+			{
+				"speaker": "guest",
+				"text": "five four three two one zero"
+			}
+		]
+	},
+	{
+		"id": "MS-05",
+		"category": "multiturn_split",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "9876"
+			},
+			{
+				"speaker": "host",
+				"text": "checkout is at 11 by the way"
+			},
+			{
+				"speaker": "host",
+				"text": "543210"
+			}
+		]
+	},
+	{
+		"id": "MS-06",
+		"category": "multiturn_split",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "we're 4 people arriving on the 9th"
+			},
+			{
+				"speaker": "guest",
+				"text": "at around 6pm"
+			},
+			{
+				"speaker": "guest",
+				"text": "is that fine?"
+			}
+		]
+	},
+	{
+		"id": "MS-07",
+		"category": "multiturn_split",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "email works better for me"
+			},
+			{
+				"speaker": "guest",
+				"text": "sunny dot k"
+			},
+			{
+				"speaker": "guest",
+				"text": "at gmail"
+			},
+			{
+				"speaker": "guest",
+				"text": "dot com"
+			}
+		]
+	},
+	{
+		"id": "MS-08",
+		"category": "multiturn_split",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "there are 3 bedrooms"
+			},
+			{
+				"speaker": "host",
+				"text": "2 with attached bath"
+			},
+			{
+				"speaker": "host",
+				"text": "1 shared"
+			}
+		]
+	},
+	{
+		"id": "MS-09",
+		"category": "multiturn_split",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "let's move this off the app"
+			},
+			{
+				"speaker": "guest",
+				"text": "nine eight"
+			},
+			{
+				"speaker": "guest",
+				"text": "seven six five"
+			},
+			{
+				"speaker": "guest",
+				"text": "four three two one zero"
+			}
+		]
+	},
+	{
+		"id": "MS-10",
+		"category": "multiturn_split",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "booking ref is"
+			},
+			{
+				"speaker": "host",
+				"text": "GPX"
+			},
+			{
+				"speaker": "host",
+				"text": "MT3AD9C8"
+			}
+		]
+	},
+	{
+		"id": "MS-11",
+		"category": "multiturn_split",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "telegram handle"
+			},
+			{
+				"speaker": "guest",
+				"text": "sunny underscore"
+			},
+			{
+				"speaker": "guest",
+				"text": "traveller99"
+			}
+		]
+	},
+	{
+		"id": "CL-01",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "Is breakfast included in the 4 night stay?"
+			}
+		]
+	},
+	{
+		"id": "CL-02",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "Checkout is at 11, checkin from 2pm onward"
+			}
+		]
+	},
+	{
+		"id": "CL-03",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "There are 4 of us, 2 adults and 2 kids"
+			}
+		]
+	},
+	{
+		"id": "CL-04",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "We're arriving on the 9th around 6pm, is that ok?"
+			}
+		]
+	},
+	{
+		"id": "CL-05",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "The villa has 3 bedrooms and 2 bathrooms"
+			}
+		]
+	},
+	{
+		"id": "CL-06",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "What's the price for 5 nights in December?"
+			}
+		]
+	},
+	{
+		"id": "CL-07",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "It's ₹8500 per night, 3 night minimum on weekends"
+			}
+		]
+	},
+	{
+		"id": "CL-08",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "Can we get an early checkin around 10am?"
+			}
+		]
+	},
+	{
+		"id": "CL-09",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "Sure, that works, no extra charge for that"
+			}
+		]
+	},
+	{
+		"id": "CL-10",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "Is there parking for 2 cars?"
+			}
+		]
+	},
+	{
+		"id": "CL-11",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "Yes, 2 covered spots right at the gate"
+			}
+		]
+	},
+	{
+		"id": "CL-12",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "How far is the beach, walkable?"
+			}
+		]
+	},
+	{
+		"id": "CL-13",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "About 400 meters, 5 minute walk"
+			}
+		]
+	},
+	{
+		"id": "CL-14",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "Do you have a crib for a 1 year old?"
+			}
+		]
+	},
+	{
+		"id": "CL-15",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "Yes we can set one up, just let us know a day before"
+			}
+		]
+	},
+	{
+		"id": "CL-16",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "Is the pool heated in December?"
+			}
+		]
+	},
+	{
+		"id": "CL-17",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "Not heated, but December water temp is still pleasant"
+			}
+		]
+	},
+	{
+		"id": "CL-18",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "Can we extend by one more night if we like it?"
+			}
+		]
+	},
+	{
+		"id": "CL-19",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "Sure, subject to availability, I'll confirm on day 2"
+			}
+		]
+	},
+	{
+		"id": "CL-20",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "Room 204 doesn't have hot water this morning"
+			}
+		]
+	},
+	{
+		"id": "CL-21",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "Sorry about that, sending someone in the next 20 minutes"
+			}
+		]
+	},
+	{
+		"id": "CL-22",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "What time does the caretaker usually arrive?"
+			}
+		]
+	},
+	{
+		"id": "CL-23",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "Around 9am daily, stays till 6"
+			}
+		]
+	},
+	{
+		"id": "CL-24",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "Is there a nearby ATM, we're short on cash"
+			}
+		]
+	},
+	{
+		"id": "CL-25",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "Yes, 2 minutes down the road on the left"
+			}
+		]
+	},
+	{
+		"id": "CL-26",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "Booking reference GPX-MT3AD9C8, can you confirm receipt?"
+			}
+		]
+	},
+	{
+		"id": "CL-27",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "Confirmed, thank you, see you on the 9th"
+			}
+		]
+	},
+	{
+		"id": "CL-28",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "Any restaurant recommendations within 5 minutes drive?"
+			}
+		]
+	},
+	{
+		"id": "CL-29",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "There's a great shack 3km away, I'll send the name"
+			}
+		]
+	},
+	{
+		"id": "CL-30",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "Can 6 people stay even though listing says max 5?"
+			}
+		]
+	},
+	{
+		"id": "CL-31",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "6 is fine, just a small extra guest charge"
+			}
+		]
+	},
+	{
+		"id": "CL-32",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "Is smoking allowed on the balcony?"
+			}
+		]
+	},
+	{
+		"id": "CL-33",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "Outdoors only, not inside the rooms please"
+			}
+		]
+	},
+	{
+		"id": "CL-34",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "We'll be there for 7 nights total"
+			}
+		]
+	},
+	{
+		"id": "CL-35",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "Noted, I'll block those dates"
+			}
+		]
+	},
+	{
+		"id": "CL-36",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "Does the villa have wifi, what's the speed roughly?"
+			}
+		]
+	},
+	{
+		"id": "CL-37",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "Fiber connection, works fine for video calls"
+			}
+		]
+	},
+	{
+		"id": "CL-38",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "Thanks so much, this place looks perfect for our trip"
+			}
+		]
+	},
+	{
+		"id": "CL-39",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "Looking forward to hosting you both!"
+			}
+		]
+	},
+	{
+		"id": "CL-40",
+		"category": "clean_control",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "What's included — towels, toiletries?"
+			}
+		]
+	},
+	{
+		"id": "CO-01",
+		"category": "coercion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "refund me the full amount or I'm mentioning this in my review"
+			}
+		]
+	},
+	{
+		"id": "CO-02",
+		"category": "coercion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "give me 50% back quietly and I'll still leave 5 stars"
+			}
+		]
+	},
+	{
+		"id": "CO-03",
+		"category": "coercion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "either you refund today or I'm posting photos everywhere"
+			}
+		]
+	},
+	{
+		"id": "CO-04",
+		"category": "coercion",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "I'll remove my bad review if you just cover the damage cost"
+			}
+		]
+	},
+	{
+		"id": "CO-05",
+		"category": "coercion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "not asking twice — refund or the review goes up tonight"
+			}
+		]
+	},
+	{
+		"id": "CO-06",
+		"category": "coercion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "just cancel it penalty-free for me, or you'll regret the review"
+			}
+		]
+	},
+	{
+		"id": "CO-07",
+		"category": "coercion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "you don't want this going on my public review, do you?"
+			}
+		]
+	},
+	{
+		"id": "CO-08",
+		"category": "coercion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "I'm not happy with the AC but I won't mention it if you comp one night"
+			}
+		]
+	},
+	{
+		"id": "CO-09",
+		"category": "coercion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "let's settle this between us before I have to escalate it publicly"
+			}
+		]
+	},
+	{
+		"id": "CO-10",
+		"category": "coercion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "waive the cleaning fee and this stays a 5 star review"
+			}
+		]
+	},
+	{
+		"id": "CO-11",
+		"category": "coercion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "The AC in the bedroom isn't cooling well, could someone take a look tomorrow?"
+			}
+		]
+	},
+	{
+		"id": "CO-12",
+		"category": "coercion",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "Honestly a bit disappointed with cleanliness, hoping it's better for the rest of the stay"
+			}
+		]
+	},
+	{
+		"id": "LM-01",
+		"category": "language_mix",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "bhaiya checkin time kya hai, hum 3pm tak pahunch jayenge"
+			}
+		]
+	},
+	{
+		"id": "LM-02",
+		"category": "language_mix",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "checkin 2pm se hai, koi dikkat nahi hogi"
+			}
+		]
+	},
+	{
+		"id": "LM-03",
+		"category": "language_mix",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "parking available hai kya, 2 gaadi honge"
+			}
+		]
+	},
+	{
+		"id": "LM-04",
+		"category": "language_mix",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "advance kitna dena hoga booking confirm karne ke liye"
+			}
+		]
+	},
+	{
+		"id": "LM-05",
+		"category": "language_mix",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "advance 20% hota hai, baaki checkin pe"
+			}
+		]
+	},
+	{
+		"id": "LM-06",
+		"category": "language_mix",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "beach kitna door hai walk karke"
+			}
+		]
+	},
+	{
+		"id": "LM-07",
+		"category": "language_mix",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "sir mera number 9876543210 hai, whatsapp pe baat kar lete hain"
+			}
+		]
+	},
+	{
+		"id": "LM-08",
+		"category": "language_mix",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "email kar do details, priya.stays@gmail dot com pe"
+			}
+		]
+	},
+	{
+		"id": "LM-09",
+		"category": "language_mix",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "ac room hai kya, garmi bahut lagti hai"
+			}
+		]
+	},
+	{
+		"id": "LM-10",
+		"category": "language_mix",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "hum log 6 log hain total, extra bed milega?"
+			}
+		]
+	},
+	{
+		"id": "LM-11",
+		"category": "language_mix",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "extra bed ka charge alag se lagega, 500 rupees"
+			}
+		]
+	},
+	{
+		"id": "LM-12",
+		"category": "language_mix",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "paisa refund kar do warna review kharab likhunga"
+			}
+		]
+	},
+	{
+		"id": "LM-13",
+		"category": "language_mix",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "wifi ka password kya hai"
+			}
+		]
+	},
+	{
+		"id": "LM-14",
+		"category": "language_mix",
+		"turns": [
+			{
+				"speaker": "host",
+				"text": "checkout ke baad bhi luggage rakh sakte hain, koi tension nahi"
+			}
+		]
+	},
+	{
+		"id": "LM-15",
+		"category": "language_mix",
+		"turns": [
+			{
+				"speaker": "guest",
+				"text": "thank you itna accha stay tha, phir aayenge"
+			}
+		]
+	}
+]
