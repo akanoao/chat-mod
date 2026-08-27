@@ -25,6 +25,9 @@ from typing import List
 from pydantic import BaseModel
 from google import genai
 from google.genai import types
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # ---------------------------------------------------------------------
 # CONFIG
@@ -165,6 +168,52 @@ keywords — amenities, house rules, recommendations, complaints unrelated
 to coercion. delivery.multiturn=false, delivery.language_mix=false.
 label.contains_violation=false, label.options=[]."""
     },
+    "digit_split": {
+        "intent": "contact_evasion", "target": 150, "batch": 15,
+        "prompt": """Generate {N} new examples, subtype "digit_split". Each
+example's "turns" array contains 2-5 separate turns from the SAME
+speaker, splitting a 10-digit phone number across them (e.g. "nine eight
+seven" / "six five four" / "three two one zero"). For about half the
+batch, interleave one unrelated filler turn in the middle (e.g. "the pool
+looks great by the way") between digit-bearing turns, so the split isn't
+always clean and consecutive. delivery.multiturn=true,
+delivery.language_mix=false. label.contains_violation=true, with 3 clean
+rewrite options that would replace the LAST turn in the sequence (the one
+that would trigger escalation), written as if responding to the whole
+conversation so far."""
+    },
+    "email_split": {
+        "intent": "contact_evasion", "target": 100, "batch": 10,
+        "prompt": """Generate {N} new examples, subtype "email_split". Each
+example's "turns" array contains 3-5 separate turns from the SAME
+speaker, splitting an email address across them (e.g. "sunny dot k" /
+"at gmail" / "dot com"), optionally preceded by a turn like "email works
+better for me". delivery.multiturn=true, delivery.language_mix=false.
+label.contains_violation=true, 3 rewrite options for the final turn,
+written in context of the full conversation so far."""
+    },
+    "handle_split": {
+        "intent": "contact_evasion", "target": 120, "batch": 10,
+        "prompt": """Generate {N} new examples, subtype "handle_split". Each
+example's "turns" array contains 2-4 separate turns from the SAME
+speaker, splitting a social/messaging handle across them (e.g. "telegram
+handle" / "sunny underscore" / "traveller99"), or naming the platform in
+one turn and giving the handle in a later one. delivery.multiturn=true,
+delivery.language_mix=false. label.contains_violation=true, 3 rewrite
+options for the final turn."""
+    },
+    "multiturn_clean_control": {
+        "intent": "clean_control", "target": 100, "batch": 15,
+        "prompt": """Generate {N} new examples, subtype
+"multiturn_clean_control". Each example's "turns" array contains 2-4
+separate turns from the SAME speaker on an ordinary topic split across
+messages the way people naturally type in bursts (e.g. booking dates,
+guest counts, questions about amenities) — NOT a masked violation.
+delivery.multiturn=true, delivery.language_mix=false.
+label.contains_violation=false, label.options=[]. These exist so the
+model doesn't learn "multiple turns from the same person = automatically
+suspicious" — most real multi-turn bursts are completely innocent."""
+    },
 }
 
 LANGUAGE_MIX_PROMPT = """Here are {N} existing training examples in English,
@@ -232,7 +281,7 @@ class ModelRotator:
 # GENERATION
 # ---------------------------------------------------------------------
 
-client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 rotator = ModelRotator(MODELS)
 seen_texts = set()  # cheap exact-dedup pass; run embedding-based dedup separately after
 
@@ -326,9 +375,14 @@ def run_language_mix_pass(source_path: str, out_f, fraction: float = 0.25, batch
     with open(source_path, encoding="utf-8") as f:
         all_examples = [json.loads(line) for line in f]
 
-    sample_size = int(len(all_examples) * fraction)
-    sample = random.sample(all_examples, min(sample_size, len(all_examples)))
-    print(f"[language_mix] rewriting {len(sample)} examples into Hinglish")
+    # Only sample from base (non-Hinglish) examples -- rerunning this pass
+    # should never re-process an example that's already been through it.
+    base_examples = [ex for ex in all_examples if not ex["delivery"]["language_mix"]]
+
+    sample_size = int(len(base_examples) * fraction)
+    sample = random.sample(base_examples, min(sample_size, len(base_examples)))
+    print(f"[language_mix] rewriting {len(sample)} examples into Hinglish "
+          f"(sampled from {len(base_examples)} base examples)")
 
     for i in range(0, len(sample), batch_size):
         chunk = sample[i:i + batch_size]
@@ -364,9 +418,9 @@ def run_language_mix_pass(source_path: str, out_f, fraction: float = 0.25, batch
 if __name__ == "__main__":
     existing = existing_count_by_subtype(OUTPUT_FILE)
 
-    with open(OUTPUT_FILE, "a") as out_f:
-        # for name, cfg in CATEGORIES.items():
-        #     generate_category(name, cfg, out_f, existing)
+    with open(OUTPUT_FILE, "a", encoding="utf-8") as out_f:
+        for name, cfg in CATEGORIES.items():
+            generate_category(name, cfg, out_f, existing)
 
         run_language_mix_pass(OUTPUT_FILE, out_f)
 

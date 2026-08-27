@@ -60,6 +60,10 @@ TARGET_COUNTS = {
     "clean_digit_heavy": 450,
     "clean_keyword_adjacent": 250,
     "clean_ordinary": 200,
+    "digit_split": 150,
+    "email_split": 100,
+    "handle_split": 120,
+    "multiturn_clean_control": 100,
 }
 
 NEAR_DUP_DROP_THRESHOLD = 0.92   # auto-drop pairs at or above this similarity
